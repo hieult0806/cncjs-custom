@@ -16,7 +16,7 @@ const defaultState = {
       primary: {
         show: true,
         widgets: [
-          'connection', 'console', 'grbl', 'marlin', 'smoothie', 'tinyg', 'webcam'
+          'connection', 'console', 'grbl', 'marlin', 'smoothie', 'tinyg', 'webcam', 'autocapture'
         ]
       },
       secondary: {
@@ -233,6 +233,12 @@ const defaultState = {
       },
       crosshair: false,
       muted: false
+    },
+    autocapture: {
+      disabled: true,
+      minimized: false,
+      title: '',
+      url: ''
     }
   }
 };
